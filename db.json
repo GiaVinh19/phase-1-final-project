@@ -1,0 +1,58 @@
+{
+  "admins": [
+    {
+      "username": "Vinny",
+      "password": "openSesame"
+    },
+    {
+      "username": "dadmin",
+      "password": "password?"
+    },
+    {
+      "username": "mom",
+      "password": "superLongComplicatedPassword"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "John HTML",
+      "email": "John.HTML@totallyrealmail.com",
+      "service": "Lengthen",
+      "request": "My jorts are too short",
+      "image": "./assets/01.png"
+    },
+    {
+      "id": 2,
+      "name": "John CSS",
+      "email": "John.CSS@seemslegitmail.com",
+      "service": "Shorten",
+      "request": "My jrousers are too long",
+      "image": "./assets/02.png"
+    },
+    {
+      "id": 3,
+      "name": "John Javascript",
+      "email": "John.Javascript@forealmail.com",
+      "service": "Widen",
+      "request": "My jat is to tight",
+      "image": "./assets/03.png"
+    },
+    {
+      "id": 4,
+      "name": "John Json",
+      "email": "John.Json@nocapmail.com",
+      "service": "Tighten",
+      "request": "My Joat is too baggy",
+      "image": "./assets/04.png"
+    },
+    {
+      "id": 5,
+      "name": "John Python",
+      "email": "John.Python@mail.com",
+      "service": "Widen",
+      "request": "My ssssneaker issssss too ssssmall ",
+      "image": "./assets/05.png"
+    }
+  ]
+}

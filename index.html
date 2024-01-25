@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Tailor Swift</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script defer type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+  <header>
+    <h3>Tailor Swift</h3>
+  </header>
+
+  <div class="container">
+
+    <div class="left">
+
+      <!-- login form  -->
+      <div id="login-form">
+
+        <label for="username"> Admin's username
+          <input required id="username" type="text" placeholder="Enter your username">
+          </input>
+        </label>
+
+        <label for="password"> Admin's password
+          <input required id="password" type="password" placeholder="Enter your password">
+          </input>
+        </label>
+
+        <button type="button" id="login-button" onclick="login()">Login</button>
+
+      </div>
+      <!-- end of login form-->
+
+      <!-- admin-page -->
+      <div id="admin-page">
+        <!-- customer Details -->
+        <div id="customer-detail">
+          <img class="detail-image" src="./assets/image-placeholder.png" alt="Insert Name Here" />
+        </div>
+
+        <h3>Name:</h3>
+        <p id='name-display'>
+          Ex: John Coding
+        </p>
+
+        <h3>Email:</h3>
+        <p id='email-display'>
+          Ex: John.Coding@mail.com
+        </p>
+
+        <h3>Service:</h3>
+        <p id='service-display'>
+          Ex: Lengthen
+        </p>
+
+        <h3>Request:</h3>
+        <p id='request-display'>
+          Ex: Lengthen these jorts please
+        </p>
+
+        <!-- New customer Form -->
+        <form id="new-customer">
+          <h4>Add New Customer</h4>
+
+          <label for="name">Name: </label>
+          <input required name="name" id="new-name"></input>
+
+          <label for="email">Email: </label>
+          <input required name="email" id="new-email"></input>
+
+          <label for="service">Service: </label>
+          <select required name="service" id="new-service">
+            <option value="">Select Service</option>
+            <option value="Lengthen">Lengthen</option>
+            <option value="Shorten">Shorten</option>
+            <option value="Widen">Widen</option>
+            <option value="Tighten">Tighten</option>
+          </select>
+
+          <label for="request">Request: </label>
+          <textarea required name="request" id="new-request"></textarea>
+
+          <label for="image">Image: </label>
+          <input required type="text" name="image" id="new-image" />
+
+          <input type="submit" value="Create" />
+
+        </form>
+
+      </div>
+      <!-- end of admin page-->
+
+    </div>
+    <div class="right" id="customer-menu">
+      <div id="logout-screen">
+        <img id="loading-screen" src="./assets/armored-core-6.gif">
+      </div>
+      <div id="login-screen">
+
+      </div>
+      <!-- Customer Cards -->
+    </div>
+  </div>
+
+</body>
+
+</html>
